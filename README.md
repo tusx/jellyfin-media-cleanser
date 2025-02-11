@@ -49,9 +49,9 @@ Above example will delete any movies and series episode that were added more tha
 
 ## Note
 
-`MOVIE_DELETE_PLAYED` `MOVIE_DELETE_ADDED_AFTER_N_DAYS` `MOVIE_DELETE_LAST_PLAYED_AFTER_N_DAYS` all set to `0` will skip all Movie type Media. This will result in No Movie Deletion.
+If `MOVIE_DELETE_PLAYED` `MOVIE_DELETE_ADDED_AFTER_N_DAYS` `MOVIE_DELETE_LAST_PLAYED_AFTER_N_DAYS` all set to `0` will skip all Movie type Media. This will result in No Movie Deletion.
 
-`SERIES_DELETE_PLAYED_EPISODE` `SERIES_DELETE_ADDED_EPISODE_AFTER_N_DAYS` `SERIES_DELETE_EPISODE_LAST_PLAYED_AFTER_N_DAYS` all set to `0` will skip all Series type Media. This will result in No Episode Deletion
+If `SERIES_DELETE_PLAYED_EPISODE` `SERIES_DELETE_ADDED_EPISODE_AFTER_N_DAYS` `SERIES_DELETE_EPISODE_LAST_PLAYED_AFTER_N_DAYS` all set to `0` will skip all Series type Media. This will result in No Episode Deletion
 
 Currently Script is Limited to `Movie` and `Series` Type Media in Jellyfin.
 
